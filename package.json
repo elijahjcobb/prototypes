@@ -1,0 +1,53 @@
+{
+  "name": "@elijahjcobb/prototypes",
+  "version": "0.0.2",
+  "description": "A collection of helpful classes to manage various real world things in TypeScript.",
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elijahjcobb/prototypes.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "color",
+    "address",
+    "byte",
+    "size",
+    "file",
+    "filesystem",
+    "date",
+    "time",
+    "interval",
+    "wait",
+    "regex",
+    "mime"
+  ],
+  "author": "Elijah Cobb <elijah@elijahcobb.com> (https://elijahcobb.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elijahjcobb/prototypes/issues"
+  },
+  "homepage": "https://github.com/elijahjcobb/prototypes#readme",
+  "dependencies": {
+    "@elijahjcobb/collections": "latest",
+    "@elijahjcobb/encryption": "latest",
+    "@elijahjcobb/error": "latest",
+    "@types/node": "*",
+    "tslint": "*",
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "typescript": "*",
+    "tslint": "*"
+  },
+  "files": [
+    "dist"
+  ]
+}
