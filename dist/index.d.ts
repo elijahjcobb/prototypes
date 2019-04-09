@@ -24,16 +24,16 @@
 /**
  * Export modules.
  */
-export { ECPrototypesAddress } from "./ECPrototypesAddress";
-export { ECPrototypesByteSize } from "./ECPrototypesByteSize";
-export { ECPrototypesByteSizeUnit } from "./ECPrototypesByteSizeUnit";
-export { ECPrototypesColor } from "./ECPrototypesColor";
-export { ECPrototypesCoordinate } from "./ECPrototypesCoordinate";
-export { ECPrototypesDate } from "./ECPrototypesDate";
-export { ECPrototypesFile } from "./ECPrototypesFile";
-export { ECPrototypesMime } from "./ECPrototypesMime";
-export { ECPrototypesParsable } from "./ECPrototypesParsable";
-export { ECPrototypesRegex } from "./ECPrototypesRegex";
-export { ECPrototypesTimeInterval } from "./ECPrototypesTimeInterval";
-export { ECPrototypesTimeUnit } from "./ECPrototypesTimeUnit";
-export { ECPrototypesWait } from "./ECPrototypesWait";
+export { ECPrototypesAddress as ECAddress } from "./ECPrototypesAddress";
+export { ECPrototypesByteSize as ECByteSize } from "./ECPrototypesByteSize";
+export { ECPrototypesByteSizeUnit as ECByteSizeUnit } from "./ECPrototypesByteSizeUnit";
+export { ECPrototypesColor as ECColor } from "./ECPrototypesColor";
+export { ECPrototypesCoordinate as ECCoordinate } from "./ECPrototypesCoordinate";
+export { ECPrototypesDate as ECDate } from "./ECPrototypesDate";
+export { ECPrototypesFile as ECFile } from "./ECPrototypesFile";
+export { ECPrototypesMime as ECMime } from "./ECPrototypesMime";
+export { ECPrototypesParsable as ECParsable } from "./ECPrototypesParsable";
+export { ECPrototypesRegex as ECRegex } from "./ECPrototypesRegex";
+export { ECPrototypesTimeInterval as ECTimeInterval } from "./ECPrototypesTimeInterval";
+export { ECPrototypesTimeUnit as ECTimeUnit } from "./ECPrototypesTimeUnit";
+export { ECPrototypesWait as ECWait } from "./ECPrototypesWait";

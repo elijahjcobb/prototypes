@@ -1,19 +1,7 @@
 {
   "name": "@elijahjcobb/prototypes",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "A collection of helpful classes to manage various real world things in TypeScript.",
-  "main": "dist/index",
-  "types": "dist/index",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/elijahjcobb/prototypes.git"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "keywords": [
     "color",
     "address",
@@ -28,6 +16,22 @@
     "regex",
     "mime"
   ],
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run compile",
+    "compile": "npm run clean && /usr/local/bin/tsc -p tsconfig.json",
+    "watch": "tsc -w tsconfig.json",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elijahjcobb/prototypes.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Elijah Cobb <elijah@elijahcobb.com> (https://elijahcobb.com/)",
   "license": "MIT",
   "bugs": {
