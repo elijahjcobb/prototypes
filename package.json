@@ -1,6 +1,6 @@
 {
   "name": "@elijahjcobb/prototypes",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A collection of helpful classes to manage various real world things in TypeScript.",
   "keywords": [
     "color",
@@ -41,15 +41,12 @@
   "dependencies": {
     "@elijahjcobb/collections": "latest",
     "@elijahjcobb/encryption": "latest",
-    "@elijahjcobb/error": "latest",
-    "@types/node": "*",
-    "tslint": "*",
-    "typescript": "*"
+    "@elijahjcobb/error": "latest"
   },
   "devDependencies": {
-    "@types/node": "*",
-    "typescript": "*",
-    "tslint": "*"
+    "@types/node": "latest",
+    "typescript": "latest",
+    "tslint": "latest"
   },
   "files": [
     "dist"
